@@ -30,7 +30,7 @@ def merge(ids,pair,idx):
     return new_idx
 
 
-class Tonkenizer:
+class Tokenizer:
     def __init(self):
         self.merge = {}
         self.pattern = ""  # 正则分开不同符号的作用，gpt2和gpt4使用的方法
